@@ -1,0 +1,302 @@
+/*****************************************/
+/*			 background-color			 */
+/*****************************************/
+body{  		background-color:#FFF; }
+#container{ background-color:#EEE; }
+#container #header				{ background:url(../images/bg/header.jpg); background-position: left bottom;}
+#container #header #nav-bg.stick{ background:url(../images/bg/header-stick.jpg);background-position: left bottom;}
+#container #content{ background-color:#EeE; }
+/*#container #content{ background:url(../images/bg/03.jpg); background-size: 100% auto;}*/
+#container #contact-me{ background-color:#4C0B5F; }
+#container #footer{  background-color:#EEE; }
+#container .spacer{  background-color:#EEE; }
+#container #project-open{ background-color:#EEE; }
+
+
+/*****************************************/
+/*				 TYPE					 */
+/*****************************************/
+body   {	 }
+body  a{ text-decoration:none; }
+body h1{ font-weight: 100;  text-align: center;	}
+body  p{			}
+
+#container { font-family: 'Raleway', sans-serif;  }
+
+#container #header #nav  { font-weight: 500; color: white; font-size: 0.9em; }
+#container #header #nav a{ font-weight: 500; color: white; }
+
+#container #content #project{ 		 			  /*font-family: 'Raleway', sans-serif;*/ }
+#container #content #project h1{	 			  font-weight: 800; font-size:5em; }
+#container #content #project h2{	 			  font-weight: 400; font-size:1.8em;  }
+#container #content #project .quote{ 			  font-weight: 200; font-size:1em; font-style: italic; }
+#container #content #project .content article p,
+#container #content #project .content article li{ font-weight: 400; font-size: 12px;  }
+
+#container #contact-me 	 { text-align: center; }
+#container #contact-me h1{ font-family: 'Roboto Slab', serif; font-weight: 400; color: white; font-size:3.5em;  text-transform:uppercase; }
+#container #contact-me  p{ font-weight: 200; color: white; font-size:1.5em;  text-transform:lowercase; }
+#container #contact-me  a{ font-weight: 800; color: white; }
+#container #footer		 { font-weight: 400; text-align: center; }
+#container #footer 		p{ font-weight: 400; color: #999;  font-size: 0.70em; }
+
+
+/*****************************************/
+/*			 MAIN STRUCTURE				 */
+/*****************************************/
+body{ margin: 0px; }
+#container{ padding: 1px; }
+#container #portfolio ,
+#container #project{
+	width: 900px;
+	height: 100%;
+	margin: 0px auto 0px auto;
+	padding: 2em 0em 2em 0em; }
+/*
+#container #project .one-col,
+#container #project .two-col{
+	text-align: left;
+	padding: 2em 0em 2em 0em;
+}
+#container #project .two-col{
+	-webkit-column-count:2; Chrome, Safari, Opera	-moz-column-count:2; Firefox	column-count:2;
+	-webkit-column-gap:50px; Chrome, Safari, Opera	-moz-column-gap:50px; Firefox	column-gap:50px;
+	-webkit-column-rule:0px outset #999; Chrome, Safari, Opera	-moz-column-rule:0px outset #999; Firefox	column-rule:0px outset #999;
+}
+*/
+#container #header{  
+	text-align:center; 
+	height:600px;
+	margin:-1px; 
+	box-shadow: 0px 10px 10px #888; }
+#container #header #nav-top-spacer{
+	height: 30%; /*44%*/ }
+#container #header #nav-top-spacer.stick{
+	height: 0px; }
+ 
+#container #header #nav{ 
+	width:100%;
+	z-index: 3;
+	opacity:0.9;  }
+#container #header #nav.stick{
+	width:100%;
+	z-index: 5;
+	opacity:0.9;
+	position:fixed;
+	margin:0px; }
+ 
+
+#container #header #nav-bg{
+/* 	margin-top: -50px; */
+/* 	background-color:blue; */
+	width: 100%;
+	height: 100px;
+	opacity:0.9; 
+} 
+#container #header #nav-bg.stick{
+/* 	margin-top: -50px; */
+/* 	margin-top: -50px; */
+	width: 100%;
+	height: 100px;
+	position:fixed;
+	margin:-1px; 
+	opacity:0.9; 
+	z-index:4;}
+	
+#container #header #nav img{   }
+#container #header #time{ display: none; }
+
+
+#container #content{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 100px; /*reserved for #nav*/ }
+
+#container #contact-me{
+	width: 100%;
+	margin: 0px auto 0px auto; 
+	padding:5em 0 5em 0;}
+
+#container #footer{
+	width: 300px;
+	height: 100px;
+	margin: 0px auto 0px auto;
+	border-top: 1px solid #999; }
+
+
+
+
+
+
+
+
+
+
+/********************************/
+/* #container #content #project */
+/********************************/
+
+/* #container #content #project - TYPE*/
+/*
+#container #content #project{ font-family: 'Raleway', sans-serif; }
+#container #content #project h1{	font-weight: 800; 	font-size:5em; }
+#container #content #project h2{	font-weight: 400; font-size:1.8em;  }
+#container #content #project .quote{ font-style: italic; font-weight: 200; font-size:1em;  }
+#container #content #project .content article p,
+#container #content #project .content article li{	 font-weight: 400; font-size: 12px;  }
+*/
+/* end TYPE */
+
+/* #container #content #project - LAYOUT*/
+#container #content #project{ }
+#container #content #project h1{ margin:0px; text-align: left; }
+#container #content #project h2{ margin:0px;	padding: 15px 0px 0px 0px; text-align: left; }
+#container #content #project .quote{ margin:0px 0px 0px 0px; padding:0px; text-align: left; }
+#container #content #project .other-works{
+	/* width: 300px;
+	height:100%;
+	float:right;
+ 	background-color:pink; */ }
+#container #content #project .content{ /* 	margin-right:300px; */ }
+#container #content #project .content article{ margin-top:0px;	padding: 2.8em 0em 2.8em 0em; }
+#container #content #project .content article img{ width: 66%; }
+#container #content #project .content article p,
+#container #content #project .content article ul,
+#container #content #project .content article ol{ margin-right:33%; }
+#container #content #project .content table{
+	/* background-color:yellow;
+	margin: 0px auto 0px auto; */ }
+/* end LAYOUT */
+
+/* #container #content #project - BUTTONS*/
+#container #content #project .content .button{
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	/*COLOR*/
+	background-color:black;
+	color: white;
+	/*TYPE*/
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;  }
+#container #content #project .content .button:hover{
+	background-color:#4488FF;
+	-webkit-animation:myButton 1s; /* Chrome, Safari, Opera */
+	animation:myButton 1s; }
+@-webkit-keyframes myButton{	/* Chrome, Safari, Opera */
+	from {  background:black;  }
+	to 	 { background:#4488FF; } }
+@keyframes myButton{	/* Standard syntax */
+	from { background:black; }
+	to 	 { background:#4488FF; } }
+/* end BUTTONS*/
+/************************************/
+/* END #container #content #project */
+/************************************/
+
+
+
+
+
+/**********************************/
+/* #container #content #portfolio */
+/**********************************/
+
+/* #container #content #portfolio - LAYOUT*/
+#container #content #portfolio .portfolio-list h1{ text-align: left; margin:0em 0px 0px 0px; }
+#container #content #portfolio .portfolio-list .portfolioContainer{ 
+	margin:0em 0px 2.5em 0px; }
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item {
+	width: 300px;
+	height:300px;
+	text-align:left; }
+
+
+/* #container #content #portfolio - TYPE*/
+#container #content #portfolio { font-family: 'Raleway', sans-serif; }
+#container #content #portfolio .portfolio-list h1{ font-weight: 800; 	font-size:3.5em; text-transform:uppercase; opacity:0.7;}
+
+
+/* #container #content #portfolio .portfolio-list - A */
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a{
+	text-decoration: none; }
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a img{
+ 	width: 300px; }
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .title,
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .description{
+	/* 	background-color:yellow; */
+	line-height: 1em;
+ 	color: #222; }
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .title{
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0.35em 0em 0.35em 0em; }
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .description{
+	font-size: 12px;
+	font-weight: 200;
+	margin: 0em 0.23em 0em 0em;
+	width: 80%; }
+
+
+
+/************************************/
+/* 			HOVER ANIMATIONS 		*/
+/************************************/
+
+/* http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/ */
+/* #container #content #portfolio .portfolio-list - HOVER ANIMATION*/
+
+#container #content #portfolio .portfolio-list,
+#container #content #project{
+	transition:1.0s; /*opacity:0.5;*/
+}
+#container #content #portfolio .portfolio-list:hover,
+#container #content #project:hover{
+    transition:1.0s; /*opacity:1.0;*/
+}
+
+#container #content #portfolio .portfolio-list,
+#container #content #project{
+	transition:1.0s; /*opacity:0.2;*/
+}
+#container #content #portfolio .portfolio-list .hover,
+#container #content #project:hover{
+    transition:1.0s; /*opacity:0.9;*/
+}
+
+/* #container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item - HOVER ANIMATION */
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a img,
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .title,
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a .description{
+    /*opacity:0.9;*/
+    /*transition:1.5s; */
+}
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a:hover img,
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a:hover .title,
+#container #content #portfolio .portfolio-list .portfolioContainer .portfolio-item a:hover .description{
+	/*opacity:1.0;*/
+    /*transition:1.5s; */
+}
+/**************************************/
+/* end #container #content #portfolio */
+/**************************************/
+
+
+
+
+
+/* PRINTS */
+.print-item{
+	opacity:0.2;
+	-webkit-filter: grayscale(100%);
+}
+.print-item:hover {
+	opacity:1; 
+	-webkit-filter: grayscale(0%);
+}
+/* end PRINTS */
+
+/* spacer */
+.spacer{ clear: both; height:2em;}
+
+

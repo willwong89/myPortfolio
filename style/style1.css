@@ -1,0 +1,326 @@
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	background-color: #222;
+	
+}
+body p{
+	font-size:12px;
+}
+body p a{
+	color: red;
+	text-decoration:none;
+}
+
+#container{
+	width: 95%;
+	min-width: 750px;
+	margin: 0px auto 0px auto;
+/* 	background-color:red; */
+}
+.main, .side, .only, #header{
+	background-color:#FFF;
+ 	border: 1px #DDD solid;
+	border-radius: 15px;
+ }
+
+/* SPACING */
+/* header */
+#header{  text-align:center; margin-bottom: 2%; }
+#sec-nav{
+	width: 120px;
+	height: 40px;
+	float: right;
+	line-height:300%
+/* 	background-color:red; */
+/* 	margin: 0px auto 0px auto; */
+/* float: right; */
+/* clear:both; */
+}
+#sec-nav a{ 
+	float:left;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color:black;
+	text-decoration: none;
+	font-size: 12px;
+	color: #DDD;
+	
+}
+#sec-nav a:hover{ 
+	background-color:#ADFF2F;
+	color: black;
+}
+/* Main Nav */
+#main-nav{
+
+}
+#main-nav a{
+
+}
+/* View Blog Nav */
+#view-blogs-nav{
+	text-align: center;
+}
+#view-blogs-nav a{
+	text-decoration: none;
+	font-size: 3em;
+	color: black;
+	width: 100%;
+	float:left;
+}
+#view-blogs-nav a:hover{
+	color:#ADFF2F;
+	background-color:black;
+}
+/* Footer */
+#footer{
+	color:#ADFF2F;
+	background-color:black;
+	width: 100%;
+	float:left;
+	text-align:center;
+	margin: 0px;
+	padding: 0px;
+}
+#footer p{
+	font-size: 15px;
+}
+
+/* only one panel */
+#header, .only{
+width: 96%;
+margin-left: 2%;
+min-height: 300px;
+}
+/* left (smaller) panels */
+.left-column-wrapper{
+	float:left;
+	width: 27%;
+	min-width: 180px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.side{	
+	margin-bottom: 4%; 
+/* 
+	width: 200px;
+	min-width: 180px;
+ */
+}
+/* right (bigger) panels */
+.main{
+	float: left;
+	width: 67%;
+}
+.main table{
+	margin: 0px auto 0px auto;
+}
+
+
+/* 
+.spacer{ clear: both; height:2em;}
+ */
+.spacer{ margin-bottom: 2em; color: white;}
+.spacer:before {  content: "."; }
+/* only panel */
+.only h1{ text-align: center; }
+.only table{
+/* 	width: 80%; */
+	margin: 0px auto 0px auto;
+}
+
+
+/* elements */
+/* Viewing the member list */
+#view-member-list .name a{ 		}
+#view-member-list .email{ font-size: 12px; }
+
+/* Viewing a specific member */
+#view-member-info .name{
+	font-size: 28px;
+	padding: 0px 10px 10px 10px;
+	border-bottom: 1px #DDD solid;
+}
+#view-member-info .name a, #view-member-list .name a{
+	color: #555;
+	text-decoration: none;
+}
+#view-member-info .name a:hover{ color: red; }
+#view-member-info .highschool{ margin: 20px 10px 2px 10px; }
+#view-member-info .email, #view-member-info .phone{
+	font-size: 12px;
+	margin: 2px 10px 2px 10px;
+}
+#view-member-info .description{
+	font-size: 12px;
+	margin: 10px 10px 2px 10px;
+}
+view-member-info .edit-btn, #view-member-info .follow-btn, #view-member-info .following-btn{
+	margin: 2px 10px 2px 10px;
+}
+#view-member-info .twitter-btn, #view-member-info .flickr-btn{
+	margin: 2px 0px 2px 10px;
+	width: 40px;
+	height:40px;
+}
+#view-member-info .twitter-btn{  background-image:url('../images/icons/twitter-40.png'); }
+#view-member-info .flickr-btn {  background-image:url('../images/icons/flickr-40.png');  }
+
+/* Type */
+.side h1, .main h1, .only h1, .side p, .main p, .only p{
+	margin: 0px 0px 10px 0px;
+	padding-left:0.5em;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;	
+}
+/* h1 */
+.side h1, .main h1, .only h1{
+	font-size: 28px;
+	border-bottom: 1px #DDD solid;
+}
+
+
+/* p */
+.side p, .main p, .only p{
+	font-size: 12px;
+	margin: 1em auto 1em auto;
+	width: 70%;
+}
+#view-member-info h1 a, #view-blogs h1 a, #view-tweets h1 a, #view-flickr h1 a{
+	text-decoration: none;
+	color: black;
+}
+#view-member-info h1 a:hover, #view-blogs h1 a:hover, #view-tweets h1 a:hover, #view-flickr h1 a:hover{
+/* 	text-decoration: overline; */
+	color: red;
+}
+#view-blogs .blog, #view-tweets .tweet{	
+	/****/
+	padding: 20px 10px 20px 10px;
+	border-bottom: 1px #DDD solid;
+}
+/* view-blogs */
+#view-blogs .blog-nopost{
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+	border-bottom: 1px #DDD solid;
+}	
+#view-blogs .blog-date, #view-tweets .tweet .date{
+	color: #00;
+	font-style:italic;
+	font-size: 12px;
+}
+#view-blogs .blog-title{ font-size: 30px; }
+#view-blogs .blog-content, #view-tweets .tweet .text{ font-size: 14px; margin: 10px 0px 10px 0px; }
+#view-blogs .blog-publisher{ font-size: 12px; }
+#view-blogs .blog-publisher a{ text-decoration: none; color: #444; font-weight: bold; }
+
+/* view-flickr */
+#view-flickr{
+/* background-color:red; */
+/* width: 650px; */
+/* 	height: 500px; */
+}
+#view-flickr .image{
+/* float:right; */
+/* clear:both; */
+}
+/* 
+#view-flickr .container{
+	padding:0px;
+	margin: 0px;
+}
+*/
+#view-flickr .image{
+	float:left;
+/* 	clear:left; */
+	margin: 0px;
+	padding: 0px;
+	width: 75px;
+	height: 75px;
+}
+ 
+
+#view-flickr .image{
+/* 	float:left; */
+}
+
+/* Select a school/category */
+.main #select-highschool .highschool, .main #select-category .blog-category{
+	text-align: center;
+}
+
+/* Buttons/Clickables */
+/* Buttons in general*/
+.follow-btn, .following-btn, .highschool, .blog-category, .hashtag, .edit-btn{
+	margin: 10px 0px 10px 0px;
+	font-size: 12px;;
+}
+
+
+/* Follow Button */
+.follow-btn a, .following-btn a{
+	padding: 2px;
+	text-decoration:none;
+	border-radius: 5px;
+	color: #FFF;
+}
+/* Unfollow button */
+/* color */
+.follow-btn a{  background-color:#3333CC; }
+.follow-btn a:hover{ color: black; }
+.following-btn a{ background-color:green;  }
+.following-btn a:hover{ color: black; }
+
+/* Highschool; */
+.highschool a{
+	padding: 2px;
+	text-decoration:none;
+	background-color:#978;
+	color: #FFF;
+}
+.highschool a:hover{
+	background-color:#fff;
+	color: #978;
+}
+
+/* Blog Category */
+.blog-category a{
+	padding: 2px;
+	text-decoration:none;
+	background-color:black;
+	color: #FFF;
+}
+.blog-category a:hover{
+	background-color:#fff;
+	color: black;
+}
+
+/* Edit Button */
+.edit-btn a{
+	padding: 2px;
+	text-decoration:none;
+	background-color:red;
+	color: #FFF;
+	border-radius: 5px;
+}
+.edit-btn a:hover{
+	background-color:#fff;
+	color: black;
+}
+
+/* Hash Tags */
+.hashtag a{
+	padding: 2px;
+	text-decoration:none;
+	background-color:red;
+	border-radius: 5px;
+	color: #FFF;
+}
+.hashtag a:hover{ color: black; }
+
