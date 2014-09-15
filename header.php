@@ -98,6 +98,10 @@
 
 
     	var biggestLogoWidth = 400;
+    	
+    	
+    	
+    	
     	var smallestLogoWidth = 50;
 
     	var xxx = (scrollTop-500)*4;
